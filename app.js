@@ -11,7 +11,7 @@ config.webhost = 'http://localhost:8080/';
 config.db.host = 'localhost';
 config.db.name = 'test';
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://Me:wordpass123@ds129179.mlab.com:29179/url_shortener');
+mongoose.connect('mongodb://'+process.env.SECRET+':'+ process.env.MADE_WITH+'@ds129179.mlab.com:29179/url_shortener');
 
 var app = new express();
 var Schema = mongoose.Schema;
