@@ -12,7 +12,7 @@
     "express": "^4.14.0",
     "mongod": "^2.0.0",
     "mongodb": "^2.2.21",
-    "mongoose": "4.7.7",
+    "mongoose": "5.7.5",
     "valid-url": "^1.0.9",
     "validator": "^6.2.1",
     "xmlhttprequest": "^1.8.0"
